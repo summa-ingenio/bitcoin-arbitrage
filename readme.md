@@ -190,6 +190,31 @@ To test the admin dashboard please use the following details:
 Username: caleb@gmail.com
 Password: test
 
+## Testing
+
+To run the tests, use the following command:
+
+```bash
+npm tests
+```
+
+This command will execute the test suite defined in the test directory.
+
+### Additional Information
+
+The test script is defined in the package.json file under the scripts section.
+
+Ensure that your API server is running before executing the tests.
+The tests use the Mocha test framework and Chai assertion library.
+The request library is used for making HTTP requests to your API. Make sure it is included in your project dependencies.
+Customizing Tests
+
+If you need to customize the tests or modify the test data, refer to the test directory and update the test scripts accordingly.
+
+### Reporting Issues
+
+If you encounter any issues or have suggestions, please open an issue on the GitHub repository.
+
 ## Deployment URL
 
 https://finaltask-client-139e56f14968.herokuapp.com/
